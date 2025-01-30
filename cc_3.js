@@ -48,4 +48,23 @@ console.log("Updated Employee Performance Data: ", employee);
 
 
 
+// Task 4: Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data.
+// Declare an array feedback containing at least three objects, each with properties: customerName, feedbackText, and rating.
+let feedbacks = [
+    {customerName: "Luffy", feedbackText: "He is doing an excellent job", rating: 89},
+    {customerName: "Zoro", feedbackText: "His work quality has been slipping", rating: 63},
+    {customerName: "Sanji", feedbackText: "His attention to detail is impressive!", rating: 82}
+];
+
+// Add a new feedback object to the array.
+feedbacks.push({customerName: "Robin", feedbackText, "Text later", rating: 60});
+// something is wrong with this, fix in the morning...
+
+// Log the entire feedback list to the console. 
+console.log("Customer Feedback Data: ", feedbacks);
+
+
+
+
+
 
