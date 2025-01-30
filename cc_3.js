@@ -28,3 +28,24 @@ console.log("Updated Customer Order Quantities: ", orders);
 console.log("Total Customer Order Count: ", totalOrders);
 
 
+// Task 3: Employee Performance Tracking Scenario: HR System You are tracking employee performance data.
+// Declare an object employee with properties: name, role, performanceScore, and isActive.
+let employee= {
+    name: "Ivan Hernandez",
+    role: "Investor",
+    performanceScore: 99,
+    isActive: true
+};
+
+// Update the performanceScore property.
+employee.performanceScore =100;
+
+//Add a new property promotionEligible with a boolean value.
+promotionEligible = false;
+
+// Log the updated employee object to the console. 
+console.log("Updated Employee Performance Data: ", employee);
+
+
+
+
