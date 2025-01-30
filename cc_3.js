@@ -1,5 +1,4 @@
-// Task 1: Product Price Management Scenario: Online Store You are managing a product pricing system
-
+// Task 1: Product Price Management Scenario: Online Store You are managing a product pricing system.
 // Declare an array prices using let and initialize it with at least five numerical values.
 let prices = [25, 50, 75, 100, 125];
 
@@ -10,6 +9,22 @@ prices.push(15); // Add 15
 prices.slice(1); // Remove 15
 
 // Log the updated price list to the console.
-console.log("Updated Price List: $ ", prices);
+console.log("Updated Product Price List: $", prices);
+
+
+
+// Task 2: Modifying Customer Orders Scenario: Order List You are processing customer orders and need to update order quantities.
+// Declare an array orders with at least five numerical values representing quantities.
+let orders= [4, 9, 15, 23, 30];
+
+// Increase the third order quantity by 5.
+orders[2] += 5;
+
+// Calculate the total number of all orders.
+let totalOrders = orders.reduce((total, orders) => total + orders, 0);
+
+// Log the updated array and total order count to the console.
+console.log("Updated Customer Order Quantities: ", orders);
+console.log("Total Customer Order Count: ", totalOrders);
 
 
