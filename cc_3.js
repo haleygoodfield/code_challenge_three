@@ -51,13 +51,13 @@ console.log("Updated Employee Performance Data: ", employee);
 // Task 4: Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data.
 // Declare an array feedback containing at least three objects, each with properties: customerName, feedbackText, and rating.
 let feedbacks = [
-    {customerName: "Luffy", feedbackText: "He is doing an excellent job", rating: 89},
-    {customerName: "Zoro", feedbackText: "His work quality has been slipping", rating: 63},
-    {customerName: "Sanji", feedbackText: "His attention to detail is impressive!", rating: 82}
+    {customerName: "Luffy", feedbackText: "Excellent job and great service!", rating: 89},
+    {customerName: "Zoro", feedbackText: "The quality has been slipping.", rating: 63},
+    {customerName: "Sanji", feedbackText: "The attention to detail is impressive!", rating: 82}
 ];
 
 // Add a new feedback object to the array.
-feedbacks.push({customerName: "Robin", feedbackText, "Text later", rating: 60});
+feedbacks.push({customerName: "Robin", feedbackText: "The prices are too expensive", rating: 60}),
 // something is wrong with this, fix in the morning...
 
 // Log the entire feedback list to the console. 
@@ -65,6 +65,20 @@ console.log("Customer Feedback Data: ", feedbacks);
 
 
 
+//Task 5: Inventory Management System Scenario: Stock Analysis You are developing a system to track inventory details.
+// Declare an object inventory with properties: itemName, stockCount, and price.
+let inventory = {
+    itemName: "iPad Mini",
+    stockCount: 15,
+    price: 649.99,
 
+    // Add a method calculateTotalValue that returns the total value (stockCount * price).
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
 
+// Log the inventory details and total value to the console. 
+console.log("Inventory details: ", inventory);
+console.log("Total value of inventory: $", inventory.calculateTotalValue());
 
