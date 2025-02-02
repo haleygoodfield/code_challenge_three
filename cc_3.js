@@ -6,7 +6,7 @@ let prices = [25, 50, 75, 100, 125];
 prices.push(15); // Add 15
 
 // Remove the first price from the array.
-prices.slice(1); // Remove 15
+prices.shift(); 
 
 // Log the updated price list to the console.
 console.log("Updated Product Price List: $", prices);
