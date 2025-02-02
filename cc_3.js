@@ -38,10 +38,10 @@ let employee= {
 };
 
 // Update the performanceScore property.
-employee.performanceScore =100;
+employee.performanceScore =100; // Increase performance score by 1
 
 //Add a new property promotionEligible with a boolean value.
-promotionEligible = false;
+promotionEligible = true;
 
 // Log the updated employee object to the console. 
 console.log("Updated Employee Performance Data: ", employee);
@@ -57,8 +57,7 @@ let feedbacks = [
 ];
 
 // Add a new feedback object to the array.
-feedbacks.push({customerName: "Robin", feedbackText: "The prices are too expensive", rating: 60}),
-// something is wrong with this, fix in the morning...
+feedbacks.push({customerName: "Robin", feedbackText: "The prices are too expensive", rating: 60});
 
 // Log the entire feedback list to the console. 
 console.log("Customer Feedback Data: ", feedbacks);
